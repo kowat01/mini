@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Danjo-bold-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.topbox{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+.logo > img{
+    width: 200px;
+    height: 90px;
+    padding: 5px;
+
+}
+
+
+button{ color: white;
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: 'Danjo-bold-Regular';
+}
+
+button:hover{
+    color: gold;
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: 'Danjo-bold-Regular';
+    
+    
+}
+
+
+@media screen and (max-width : 768px) {
+    .topbox{    
+    flex-direction: column;
+    gap : 20px
+    }
+}
