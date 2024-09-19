@@ -1,0 +1,39 @@
+.second{
+    width: 100vw;
+    padding: 100px 0;
+
+}
+.contents{gap : 50px;
+    }
+h5{font-size: x-large;
+    color: white;
+    display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: start;
+font-family: 'Danjo-bold-Regular';
+width : 200px;
+    height: 400px;
+}
+.icon{color: white;
+    gap : 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Danjo-bold-Regular';
+width : 200px;
+    height: 400px;}
+.fa-brands{font-size: 50px;}
+
+@media screen and (max-width : 768px) {
+    .centerd{gap : 50px;}
+    
+    
+    
+    .second{
+        padding : 50px;
+
+    }
+    
+}

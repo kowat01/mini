@@ -1,0 +1,72 @@
+.flame{
+    max-width: 100vw;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://en.free-wallpapers.su/data/media/6463/big/gm6534.jpg);
+}
+.first{
+    width: 100vw;
+    padding : 150px 0;
+
+
+}
+.centerd{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+    gap : 40px;
+
+
+}
+.content{
+    width : 200px;
+    height: 400px;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Danjo-bold-Regular';
+    gap : 10px
+}
+.contenttitle{
+    width : 200px;
+    height: 400px;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Danjo-bold-Regular';
+
+}
+.content > img{border: 1px solid white;
+object-fit: cover;
+}
+@media screen and ( max-width : 768px){
+    
+    .centerd{max-width: 600px;}
+    
+    .contents{align-items: center;
+        flex-direction: column;}
+    .contents > .contenttitle{margin-right: 0px;}
+    .contents > .content{margin-right: 0px;}
+
+}
